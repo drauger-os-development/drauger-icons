@@ -1,0 +1,9 @@
+Package: drauger-icons
+Version: 0.0.2
+Maintainer: Thomas Castleman <contact@draugeros.ml>
+Section: graphics
+Homepage: https://github.com/drauger-os-development/drauger-icons
+Architecture: all
+Priority: standard
+Description: Icon Theme for Drauger OS Apps
+ This is the icon theme used by the custom apps made for Drauger OS. It is not supposed to be used as the default icon theme and contains only a few icons
