@@ -1,6 +1,0 @@
-#!/bin/bash
-set -e
-if [ "$1" == "configure" ]; then
-	update-icon-caches /usr/share/icons/Drauger
-	touch -ac /usr/share/icons/Drauger
-fi
