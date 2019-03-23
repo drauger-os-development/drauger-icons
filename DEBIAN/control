@@ -1,6 +1,6 @@
 Package: drauger-icons
-Version: 0.0.5
-Maintainer: Thomas Castleman <contact@draugeros.ml>
+Version: 0.0.6
+Maintainer: Thomas Castleman <contact@draugeros.org>
 Section: graphics
 Homepage: https://github.com/drauger-os-development/drauger-icons
 Architecture: all
