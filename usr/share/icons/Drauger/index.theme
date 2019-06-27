@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Drauger
 Comment=Do not use this Icon Pack. Only used for certain Drauger OS specific apps.
-Example=folder
+Example=CYGO
 
 #KDE Specific Stuff
 DisplayDepth=32
@@ -20,13 +20,34 @@ PanelDefault=32
 PanelSizes=16,22,32.48,64,72,96,128
 
 #Directory List
-Directories=720x720/Menus,scalable/menus
+Directories=720x720/Menus,720x720/menus,128x128/apps,128x128/Apps,scalable/menus
 
 [720x720/Menus]
 Context=Menus
 Size=720
 MinSize=16
 MaxSize=720
+Type=Scalable
+
+[720x720/menus]
+Context=Menus
+Size=720
+MinSize=16
+MaxSize=720
+Type=Scalable
+
+[128x128/Apps]
+Context=Menus
+Size=128
+MinSize=16
+MaxSize=128
+Type=Scalable
+
+[128x128/apps]
+Context=Menus
+Size=128
+MinSize=16
+MaxSize=128
 Type=Scalable
 
 [scalable/menus]

@@ -1,0 +1,7 @@
+drauger-icons (0.0.7) bionic; urgency=medium
+
+  * added changelog
+  * Added CYGO Network Icon
+  * Added relative symbolic links so that typos in file path names are less of an issue
+
+ -- Thomas Castleman <contact@draugeros.org>  Tue, 24 Jun 2019 09:39:40 -0500
