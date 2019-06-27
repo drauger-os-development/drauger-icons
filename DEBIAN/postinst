@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 if [ "$1" == "configure" ]; then
-	ln /usr/share/icons/Drauger/720x720/Menus /usr/share/icons/Drauger/720x720/menus
-	ln /usr/share/icons/Drauger/128x128/apps /usr/share/icons/Drauger/128x128/Apps
+	ln -s /usr/share/icons/Drauger/720x720/Menus /usr/share/icons/Drauger/720x720/menus
+	ln -s /usr/share/icons/Drauger/128x128/apps /usr/share/icons/Drauger/128x128/Apps
 	update-icon-caches /usr/share/icons/Drauger
 	touch -ac /usr/share/icons/Drauger
 fi
